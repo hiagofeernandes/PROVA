@@ -1,0 +1,697 @@
+[2019-11-25 22:47:43] local.ERROR: Call to undefined method Illuminate\Routing\RouteFileRegistrar::get() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined method Illuminate\\Routing\\RouteFileRegistrar::get() at C:\\Users\\aluno09\\bhaskaraOficial\outes\\web.php:3)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require()
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(415): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\aluno0...')
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(373): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\aluno0...')
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(121): Illuminate\\Routing\\Router->group(Array, 'C:\\\\Users\\\\aluno0...')
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\app\\Providers\\RouteServiceProvider.php(56): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\Users\\\\aluno0...')
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\app\\Providers\\RouteServiceProvider.php(40): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#6 [internal function]: App\\Providers\\RouteServiceProvider->map()
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(87): Illuminate\\Container\\Container->call(Array)
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#15 [internal function]: App\\Providers\\RouteServiceProvider->boot()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(828): Illuminate\\Container\\Container->call(Array)
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(811): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#23 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 22)
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(812): array_walk(Array, Object(Closure))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(211): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#28 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#29 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
+[2019-11-25 23:00:44] local.ERROR: Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:auth\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('make:auth')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-11-25 23:02:21] local.ERROR: Command "ui" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"ui\" is not defined. at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('ui')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-11-25 23:03:41] local.ERROR: Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:auth\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('make:auth')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-11-25 23:08:18] local.ERROR: Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:auth\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('make:auth')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-11-25 23:14:11] local.ERROR: Command "make:authphp" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:authphp\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('make:authphp')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-11-25 23:15:38] local.ERROR: SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`)) at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:665)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('alter table `us...', Array, Object(Closure))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('alter table `us...')
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 {main}
+
+[previous exception] [object] (PDOException(code: 42000): SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:459)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): PDOStatement->execute()
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(658): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('alter table `us...', Array)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('alter table `us...', Array, Object(Closure))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('alter table `us...')
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#15 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
+[2019-11-25 23:19:44] local.ERROR: Command "make:auth" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:auth\" is not defined.
+
+Did you mean one of these?
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php:670)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(236): Symfony\\Component\\Console\\Application->find('make:auth')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-11-25 23:34:52] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` bigint unsigned not null auto_increment primary key, `name` varchar(255) not null, `email` varchar(255) not null, `email_verified_at` timestamp null, `password` varchar(255) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` bigint unsigned not null auto_increment primary key, `name` varchar(255) not null, `email` varchar(255) not null, `email_verified_at` timestamp null, `password` varchar(255) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:665)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 {main}
+
+[previous exception] [object] (PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:459)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): PDOStatement->execute()
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(658): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `u...', Array)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#15 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
+[2019-11-25 23:37:00] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` bigint unsigned not null auto_increment primary key, `name` varchar(255) not null, `email` varchar(255) not null, `email_verified_at` timestamp null, `password` varchar(255) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` bigint unsigned not null auto_increment primary key, `name` varchar(255) not null, `email` varchar(255) not null, `email_verified_at` timestamp null, `password` varchar(255) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:665)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 {main}
+
+[previous exception] [object] (PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:459)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): PDOStatement->execute()
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(658): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `u...', Array)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(24): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#15 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
+[2019-11-25 23:37:35] local.ERROR: Class 'Bhaskara' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Bhaskara' not found at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php:448)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(186): Illuminate\\Database\\Migrations\\Migrator->resolve('2019_11_25_2325...')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
+[2019-11-25 23:38:02] local.ERROR: Class 'Bhaskara' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Bhaskara' not found at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php:448)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(186): Illuminate\\Database\\Migrations\\Migrator->resolve('2019_11_25_2325...')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
+[2019-11-25 23:38:14] local.ERROR: Class 'Bhaskara' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Bhaskara' not found at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php:448)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(186): Illuminate\\Database\\Migrations\\Migrator->resolve('2019_11_25_2325...')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
+[2019-11-25 23:38:44] local.ERROR: Class 'Bhaskara' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Bhaskara' not found at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php:448)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(186): Illuminate\\Database\\Migrations\\Migrator->resolve('2019_11_25_2325...')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
+[2019-11-25 23:39:34] local.ERROR: Class 'Bhaskara' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Bhaskara' not found at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php:448)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(186): Illuminate\\Database\\Migrations\\Migrator->resolve('2019_11_25_2325...')
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#4 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
+[2019-11-25 23:43:05] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `question` varchar(80) not null, `coef_a` varchar(80) not null, `coef_b` varchar(80) not null, `coef_c` varchar(80) not null, `delta` varchar(80) not null, `x1` varchar(80) not null, `x2` varchar(80) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `question` varchar(80) not null, `coef_a` varchar(80) not null, `coef_b` varchar(80) not null, `coef_c` varchar(80) not null, `delta` varchar(80) not null, `x1` varchar(80) not null, `x2` varchar(80) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:665)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(27): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#13 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 {main}
+
+[previous exception] [object] (PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists at C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:459)
+[stacktrace]
+#0 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): PDOStatement->execute()
+#1 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(658): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `u...', Array)
+#2 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(625): Illuminate\\Database\\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#3 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(460): Illuminate\\Database\\Connection->run('create table `u...', Array, Object(Closure))
+#4 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(97): Illuminate\\Database\\Connection->statement('create table `u...')
+#5 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(290): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(167): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(245): Illuminate\\Database\\Schema\\Builder->create('users', Object(Closure))
+#8 C:\\Users\\aluno09\\bhaskaraOficial\\database\\migrations\\2014_10_12_000000_create_users_table.php(27): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(387): CreateUsersTable->up()
+#10 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(396): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#11 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(197): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateUsersTable), 'up')
+#12 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(162): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Users\\\\aluno0...', 1, false)
+#13 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(109): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#14 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(71): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#15 [internal function]: Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#16 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#17 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(34): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#18 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#19 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#20 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#21 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(202): Illuminate\\Container\\Container->call(Array)
+#22 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#23 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(189): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(1011): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\Users\\aluno09\\bhaskaraOficial\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\Users\\aluno09\\bhaskaraOficial\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 {main}
+"} 
